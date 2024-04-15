@@ -1160,7 +1160,7 @@ class Builder implements BuilderContract
      * Increment a column's value by a given amount.
      *
      * @param  string|\Illuminate\Contracts\Database\Query\Expression  $column
-     * @param  float|int  $amount
+     * @param  float|int|numeric-string  $amount
      * @param  array  $extra
      * @return int
      */
@@ -1175,7 +1175,7 @@ class Builder implements BuilderContract
      * Decrement a column's value by a given amount.
      *
      * @param  string|\Illuminate\Contracts\Database\Query\Expression  $column
-     * @param  float|int  $amount
+     * @param  float|int|numeric-string  $amount
      * @param  array  $extra
      * @return int
      */

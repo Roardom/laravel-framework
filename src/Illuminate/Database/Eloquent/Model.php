@@ -919,7 +919,7 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
      * Increment a column's value by a given amount.
      *
      * @param  string  $column
-     * @param  float|int  $amount
+     * @param  float|int|numeric-string  $amount
      * @param  array  $extra
      * @return int
      */
@@ -932,7 +932,7 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
      * Decrement a column's value by a given amount.
      *
      * @param  string  $column
-     * @param  float|int  $amount
+     * @param  float|int|numeric-string  $amount
      * @param  array  $extra
      * @return int
      */
@@ -945,7 +945,7 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
      * Run the increment or decrement method on the model.
      *
      * @param  string  $column
-     * @param  float|int  $amount
+     * @param  float|int|numeric-string  $amount
      * @param  array  $extra
      * @param  string  $method
      * @return int
